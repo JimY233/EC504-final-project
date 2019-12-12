@@ -7,7 +7,7 @@ jiamingy@bu.edu
 
 The details of the project are in the file named EC504 project report.  
 
-The project implements three versions of k-d tree to design the nearest state/county finder. Based on the tree data structure built by more than 2 million reference points, User can query the k nearest neighbors and find the state and county. THe time complexity of query is O(logn) while after using some tricks, it takes about 5e-5 to query.  
+The project implements three versions of k-d tree to design the nearest state/county finder. Based on the tree data structure built by more than 2 million reference points, User can query the k nearest neighbors and find the state and county. The time complexity of query is O(logn). And after using some tricks like comparing the distance between query point and node pivot with the minimum distance generated before, it takes about 5e-5 to query.  
 
 You can focus on the kdleaves.cpp.  
 
